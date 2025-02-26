@@ -6,4 +6,6 @@ Objective:
 Analyzing this dataset can provide significant insights into delivery dynamics, efficiency bottlenecks, and optimization opportunities.
 The insights obtained can enhance Porter's operational efficiency, ensuring timely deliveries and improving driver-partner allocation.
 
+Assumptions:
 
+Since on-shift partners < busy partners, I am assuming that on-shift partners are available partners for delivery during the time of the order and busy partners are partners who are offline
