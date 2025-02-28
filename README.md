@@ -4,7 +4,7 @@ Porter, India's largest marketplace for intra-city logistics, is revolutionizing
 
 ***Data***
 
-<img src="Pictures/data.png" alt="Data" width="800"/> 
+<img src="Pictures/features.png" alt="Data" width="500"/> 
 
 ***Problem Statement - Decoded***
 
