@@ -23,7 +23,7 @@ This dataset is about each order placed from different restaurants located in di
 * Around 50% of the restaurants are located in area: 2.0 or 4.0
 * Around 75% of the orders are paid through modes: 1.0, 3.0, 5.0 whereas 6.0 & 7.0 are almost negligible
 
-**Restaurant categories**
+***Restaurant categories***
 
 <img src="Pictures/Top_restaurant_categories.png" alt="Data" width="800"/> 
 
