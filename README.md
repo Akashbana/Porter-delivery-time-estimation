@@ -29,3 +29,10 @@ This dataset is about each order placed from different restaurants located in di
 
 * Above chart shows what type of restaurants people mostly order from
 * American, Pizza & mexican are the most popular type of restaurants
+
+* Most of the orders have total no. of items <= 5
+* Most of the orders have sub total between < 5000
+* Distribution is slightly skewed towards right, maybe because of large corporate or party orders
+
+* Average min value of item < 1000 whereas average max value per item > 1000
+* Values range between 0 & 14,000, maybe there could be some outliers since some values are very high and isolated
