@@ -30,14 +30,40 @@ This dataset is about each order placed from different restaurants located in di
 * Above chart shows what type of restaurants people mostly order from
 * American, Pizza & mexican are the most popular type of restaurants
 
-<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
-<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
-<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
-<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
+<img src="Pictures/items_and_subtotal.png" alt="Data" width="800"/> 
 
 * Most of the orders have total no. of items <= 5
 * Most of the orders have sub total between < 5000
 * Distribution is slightly skewed towards right, maybe because of large corporate or party orders
 
+<img src="Pictures/min_and_max.png" alt="Data" width="800"/> 
+
 * Average min value of item < 1000 whereas average max value per item > 1000
 * Values range between 0 & 14,000, maybe there could be some outliers since some values are very high and isolated
+
+<img src="Pictures/onshift_and_busy_partners.png" alt="Data" width="800"/> 
+
+* Median value at the time of order: on-shift delivery partners - 37, busy delivery partners - 34
+* Range is varying between 0 & 180
+
+<img src="Pictures/total_outstanding_orders.png" alt="Data" width="800"/> 
+
+* Average total outstanding orders = 58
+* Min = -6, which means there are outliers since total outstanding orders cannot be negative
+
+***Extracting Time & Day of the week***
+
+<img src="Pictures/total_outstanding_orders.png" alt="Data" width="800"/>
+<img src="Pictures/total_outstanding_orders.png" alt="Data" width="800"/> 
+
+Peak time is from 1am to 3 am & 7pm to 9 pm
+No. of orders at 2am is double of no. of orders at 8pm
+Average delivery time is around 48 mins whereas median delivery time is 44 mins
+Max delivery time is around 1,41,948 mins which is clearly an outlier
+No. of orders are higher during weekends i.e. saturday & sunday compared to weekdays
+
+***Bi-variate Analysis***
+
+
+
+
