@@ -44,12 +44,10 @@ This dataset is about each order placed from different restaurants located in di
 <img src="Pictures/onshift_and_busy_partners.png" alt="Data" width="800"/> 
 
 * Median value at the time of order: on-shift delivery partners - 37, busy delivery partners - 34
-* Range is varying between 0 & 180
 
 <img src="Pictures/total_outstanding_orders.png" alt="Data" width="800"/> 
 
 * Average total outstanding orders = 58
-* Min = -6, which means there are outliers since total outstanding orders cannot be negative
 
 ***Extracting Time & Day of the week***
 
@@ -64,29 +62,29 @@ This dataset is about each order placed from different restaurants located in di
 
 ***Bi-variate Analysis***
 
-<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+<img src="Pictures/bivariate1.png" alt="Data" width="800"/>
 
-Average delivery time is increasing with increase in total outstanding orders
-Average delivery time remains constant till total outstanding orders reach 50 and then increase linearly with total outstanding orders
-As total outstanding orders cross 200, delivery time is increasing non-linearly
-Average delivery time increases linearly with max item price & sub - total
+* Average delivery time is increasing with increase in total outstanding orders
+* Average delivery time remains constant till total outstanding orders reach 50 and then increase linearly with total outstanding orders
+* As total outstanding orders cross 200, delivery time is increasing non-linearly
+* Average delivery time increases linearly with max item price & sub - total
 
-<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+<img src="Pictures/bivariate2.png" alt="Data" width="800"/>
 
-Average delivery time is fluctuating as total no. of items are increasing
-Initially, as no. of total on-shift/busy delivery partners increases till 30, average delivery time decreases
-As no. of on-shift/busy delivery partners crosses 30, average delivery time increases
+* Average delivery time is fluctuating as total no. of items are increasing
+* Initially, as no. of total on-shift/busy delivery partners increases till 30, average delivery time decreases
+* As no. of on-shift/busy delivery partners crosses 30, average delivery time increases
 
-<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/> 
+<img src="Pictures/bivariate3.png" alt="Data" width="800"/> 
 
-Average delivery time increases linearly as no. of disntict items increases
-Average delivery for market id 1 is around 54 mins whereas for rest of the market ids, average delivery time is around 46 mins
-Avg delivery time is highest during: sunday > monday > saturday > thursday > tuesday > friday > wednesday
+* Average delivery time increases linearly as no. of disntict items increases
+* Average delivery for market id 1 is around 54 mins whereas for rest of the market ids, average delivery time is around 46 mins
+* Avg delivery time is highest during: sunday > monday > saturday > thursday > tuesday > friday > wednesday
 
-<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+<img src="Pictures/bivariate4.png" alt="Data" width="800"/>
 
-Average delivery time decreases from 52 to 41 as we move from 1 to 7, but only for 6, it increases to 60
-Unusual spike in average delivery time at 8am
+* Average delivery time decreases from 52 to 41 as we move from 1 to 7, but only for 6, it increases to 60
+* Unusual spike in average delivery time at 8am
 
 
 
