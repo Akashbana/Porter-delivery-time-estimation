@@ -30,6 +30,11 @@ This dataset is about each order placed from different restaurants located in di
 * Above chart shows what type of restaurants people mostly order from
 * American, Pizza & mexican are the most popular type of restaurants
 
+<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
+<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
+<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
+<img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
+
 * Most of the orders have total no. of items <= 5
 * Most of the orders have sub total between < 5000
 * Distribution is slightly skewed towards right, maybe because of large corporate or party orders
