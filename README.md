@@ -53,16 +53,40 @@ This dataset is about each order placed from different restaurants located in di
 
 ***Extracting Time & Day of the week***
 
-<img src="Pictures/total_outstanding_orders.png" alt="Data" width="800"/>
-<img src="Pictures/total_outstanding_orders.png" alt="Data" width="800"/> 
+<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+<img src="Pictures/time_day_delivery.png" alt="Data" width="800"/> 
 
-Peak time is from 1am to 3 am & 7pm to 9 pm
-No. of orders at 2am is double of no. of orders at 8pm
-Average delivery time is around 48 mins whereas median delivery time is 44 mins
-Max delivery time is around 1,41,948 mins which is clearly an outlier
-No. of orders are higher during weekends i.e. saturday & sunday compared to weekdays
+* Peak time is from 1am to 3 am & 7pm to 9 pm
+* No. of orders at 2am is double of no. of orders at 8pm
+* Average delivery time is around 48 mins whereas median delivery time is 44 mins
+* Max delivery time is around 1,41,948 mins which is clearly an outlier
+* No. of orders are higher during weekends i.e. saturday & sunday compared to weekdays
 
 ***Bi-variate Analysis***
+
+<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+
+Average delivery time is increasing with increase in total outstanding orders
+Average delivery time remains constant till total outstanding orders reach 50 and then increase linearly with total outstanding orders
+As total outstanding orders cross 200, delivery time is increasing non-linearly
+Average delivery time increases linearly with max item price & sub - total
+
+<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+
+Average delivery time is fluctuating as total no. of items are increasing
+Initially, as no. of total on-shift/busy delivery partners increases till 30, average delivery time decreases
+As no. of on-shift/busy delivery partners crosses 30, average delivery time increases
+
+<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/> 
+
+Average delivery time increases linearly as no. of disntict items increases
+Average delivery for market id 1 is around 54 mins whereas for rest of the market ids, average delivery time is around 46 mins
+Avg delivery time is highest during: sunday > monday > saturday > thursday > tuesday > friday > wednesday
+
+<img src="Pictures/extracting_time_and_day.png" alt="Data" width="800"/>
+
+Average delivery time decreases from 52 to 41 as we move from 1 to 7, but only for 6, it increases to 60
+Unusual spike in average delivery time at 8am
 
 
 
