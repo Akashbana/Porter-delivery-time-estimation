@@ -86,6 +86,8 @@ This dataset is about each order placed from different restaurants located in di
 * Average delivery time decreases from 52 to 41 as we move from 1 to 7, but only for 6, it increases to 60
 * Unusual spike in average delivery time at 8am
 
+## Data Pre-Processing
+
 
 
 
