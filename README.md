@@ -88,6 +88,8 @@ This dataset is about each order placed from different restaurants located in di
 
 ## Data Pre-Processing
 
-
+* 16,262 rows have missing values in on-shift partners, busy partners & outstanding orders together, which forms 8% of total data
+* Significant correlation for on-shift partners, busy partners & outstanding orders is with each other and with:
+* hour of the day
 
 
