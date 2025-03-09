@@ -92,4 +92,6 @@ This dataset is about each order placed from different restaurants located in di
 * Significant correlation for on-shift partners, busy partners & outstanding orders is with each other and with:
 * hour of the day
 
+Assumptions:        
 
+Since values have variance at each hour, assuming they follow normal distribution, imputation will be done using mean & std for individual feature
