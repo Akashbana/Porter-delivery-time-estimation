@@ -20,8 +20,17 @@ This dataset is about each order placed from different restaurants located in di
 
 <img src="Pictures/percentage_share.png" alt="Data" width="800"/> 
 
-* Around 50% of the restaurants are located in area: 2.0 or 4.0
-* Around 75% of the orders are paid through modes: 1.0, 3.0, 5.0 whereas 6.0 & 7.0 are almost negligible
+***Market Area Distribution***
+
+The majority of restaurants (around 70%) are located in market areas 1.0, 2.0, and 4.0.
+The distribution is visualized using a pie chart, where different shades of blue represent different market areas.
+
+***Mode of Payment Distribution***
+
+About 75% of orders are paid through modes 1.0, 3.0, and 5.0.
+Modes 6.0 and 7.0 have a negligible share of payments.
+The pie chart highlights this distribution with pastel colors, and less frequent payment modes are slightly separated (exploded) for better visibility.
+These insights help in understanding restaurant distribution and customer payment preferences, which can be valuable for strategic decision-making
 
 ***Restaurant categories***
 
