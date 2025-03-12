@@ -33,35 +33,35 @@ This dataset is about each order placed from different restaurants located in di
 - ~70% of restaurants are in market areas 1.0, 2.0, and 4.0
 - Approximately 75% of orders use payment modes 1.0, 3.0, and 5.0
 
-<img src="Pictures/market_distribution.png" alt="Data" width="700"/>
+<img src="Pictures/market_distribution.png" alt="Data" width="900"/>
 
 **Restaurant Categories & Order Composition:**
 
 - Top cuisines include American, Pizza, and Mexican
 - Most orders consist of 5 or fewer items, with a few large, high-value orders
 
-<img src="Pictures/store_categories.png" alt="Data" width="900"/>
+<img src="Pictures/store_categories.png" alt="Data" width="1000"/>
   
 **Price & Partner Metrics:**
 
 - Item price distributions reveal low minimum prices with some high-end outliers
 - Median on-shift partners (available) are 37, while busy (offline) partners are 34, showing fluctuations in workforce availability
 
-<img src="Pictures/delivery_partners.png" alt="Data" width="900"/>
+<img src="Pictures/delivery_partners.png" alt="Data" width="1000"/>
 
 **Delivery Time Trends:**
 
 - Average delivery time is ~48 minutes (median 44 minutes)
 - Peak order volumes occur early in the morning and in the evening, with weekends showing higher demand
 
-<img src="Pictures/hour_of_day.png" alt="Data" width="700"/>
+<img src="Pictures/hour_of_day.png" alt="Data" width="1000"/>
 
 **Correlation Insights:**
 
 - Strong positive correlation exists between total items and subtotal, and between partner metrics
 - Delivery time is weakly correlated with most features, implying that external factors (e.g., traffic, weather) likely play a role
 
-<img src="Pictures/corr_map.png" alt="Data" width="700"/> 
+<img src="Pictures/corr_map.png" alt="Data" width="800"/> 
 
 **Bi-Variate Analysis**
 
@@ -69,9 +69,9 @@ This dataset is about each order placed from different restaurants located in di
 2. Higher max item prices are associated with longer delivery times, suggesting extra handling or preparation time for expensive items
 3. Orders with low sub-totals have the shortest delivery times; a noticeable jump occurs from low to medium sub-totals, with further increases leading to a linear rise in delivery time
 
-<img src="Pictures/corr_map.png" alt="Data" width="700"/> 
+<img src="Pictures/outstanding_orders_vs_delivery_time.png" alt="Data" width="1000"/> 
    
 5. Delivery time varies with the number of items, with more complex orders taking longer to process
 6. Delivery time decreases with more on-shift (available) partners up to a threshold (~30), but too many offline (busy) partners correlate with delays
 
-<img src="Pictures/corr_map.png" alt="Data" width="700"/> 
+<img src="Pictures/partners_vs_delivery_time.png" alt="Data" width="1000"/> 
