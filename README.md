@@ -40,14 +40,14 @@ This dataset is about each order placed from different restaurants located in di
 - Top cuisines include American, Pizza, and Mexican
 - Most orders consist of 5 or fewer items, with a few large, high-value orders
 
-<img src="Pictures/store_categories.png" alt="Data" width="700"/>
+<img src="Pictures/store_categories.png" alt="Data" width="900"/>
   
 **Price & Partner Metrics:**
 
 - Item price distributions reveal low minimum prices with some high-end outliers
 - Median on-shift partners (available) are 37, while busy (offline) partners are 34, showing fluctuations in workforce availability
 
-<img src="Pictures/delivery_partners.png" alt="Data" width="700"/>
+<img src="Pictures/delivery_partners.png" alt="Data" width="900"/>
 
 **Delivery Time Trends:**
 
