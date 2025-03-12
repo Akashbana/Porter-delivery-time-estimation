@@ -1,18 +1,23 @@
 ## Problem Statement
 
-Porter, India's largest marketplace for intra-city logistics, is revolutionizing the delivery sector with technology-driven solutions. Analyzing this dataset can provide significant insights into delivery dynamics, efficiency bottlenecks, and optimization opportunities. The insights obtained can enhance Porter's operational efficiency, ensuring timely deliveries and improving driver-partner allocation.
+India’s largest intra-city logistics marketplace, aims to revolutionize delivery services by leveraging technology to provide accurate delivery time estimates, a key driver of customer satisfaction. This project focuses on predicting delivery times using a dataset of order and delivery details, including market areas, restaurant categories, order volumes, and partner availability.
 
-***Data***
+1. To develop a predictive model that delivers ***precise delivery time estimates, reducing customer churn and improving satisfaction***
+2. To optimize the ***allocation of delivery partners*** by understanding demand patterns and operational capacity
+3. To identify bottlenecks causing delays, enabling ***operational efficiency gains***
+
+By employing exploratory data analysis, feature engineering, and machine learning models ***(Random Forest, XGBoost, and Neural Networks)***, this analysis seeks to provide actionable insights that enhance company's ability to ensure timely deliveries and streamline logistics operations
+
+**Data**
 
 <img src="Pictures/features.png" alt="Data" width="500"/> 
 
-This dataset is about each order placed from different restaurants located in different areas and our goal is to predict delivery time of these orders. Data has 1,97,428 rows where each row represents an order.
+This dataset is about each order placed from different restaurants located in different areas and our goal is to predict delivery time of these orders. Data has 1,97,428 rows where each row represents an order
 
-***Problem Statement - Decoded***
+**Assumptions:**
 
-1. Providing precise delivery estimates - Improves customer satisfaction and reduces churn
-2. Proper allocation of delivery partners - Optimised operational costs
-3. Identifying bottlenecks - Reducing higher delivery times
+* Since the number of on-shift partners is less than the number of busy partners, I assume that on-shift partners represent the available delivery partners at the time of the order, while busy partners refer to those who are currently offline
+* The metrics for delivery partners and outstanding orders are indicative at the platform level rather than being specific to individual markets
 
 ## EDA
 
