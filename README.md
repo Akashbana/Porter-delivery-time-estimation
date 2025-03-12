@@ -61,4 +61,17 @@ This dataset is about each order placed from different restaurants located in di
 - Strong positive correlation exists between total items and subtotal, and between partner metrics
 - Delivery time is weakly correlated with most features, implying that external factors (e.g., traffic, weather) likely play a role
 
-<img src="Pictures/corr_map.png" alt="Data" width="700"/>
+<img src="Pictures/corr_map.png" alt="Data" width="700"/> 
+
+**Bi-Variate Analysis**
+
+1. Delivery time remains stable up to 50 outstanding orders, then increases linearly, and spikes non-linearly above 200 orders (indicating congestion)
+2. Higher max item prices are associated with longer delivery times, suggesting extra handling or preparation time for expensive items
+3. Orders with low sub-totals have the shortest delivery times; a noticeable jump occurs from low to medium sub-totals, with further increases leading to a linear rise in delivery time
+
+<img src="Pictures/corr_map.png" alt="Data" width="700"/> 
+   
+5. Delivery time varies with the number of items, with more complex orders taking longer to process
+6. Delivery time decreases with more on-shift (available) partners up to a threshold (~30), but too many offline (busy) partners correlate with delays
+
+<img src="Pictures/corr_map.png" alt="Data" width="700"/> 
