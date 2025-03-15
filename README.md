@@ -75,3 +75,10 @@ This dataset is about each order placed from different restaurants located in di
 6. Delivery time decreases with more on-shift (available) partners up to a threshold (~30), but too many offline (busy) partners correlate with delays
 
 <img src="Pictures/partners_vs_delivery_time.png" alt="Data" width="1000"/> 
+
+## Data Pre-Processing
+
+<img src="Pictures/hour_of_day.png" alt="Data" width="1000"/>
+<img src="Pictures/hour_of_day.png" alt="Data" width="1000"/>
+<img src="Pictures/hour_of_day.png" alt="Data" width="1000"/>
+<img src="Pictures/hour_of_day.png" alt="Data" width="1000"/> 
